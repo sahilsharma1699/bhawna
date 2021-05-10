@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@700&family=Roboto&display=swap');
+/* font-family: 'Lato', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+h1{
+    font-family: 'Montserrat', sans-serif; 
+    text-align:center;
+}
+
+h3{
+    color: blue;
+    text-decoration: underline;
+    text-align:center;
+}
+
+.firsthr{
+    border: none;
+    border-top: 1px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 450px;
+    z-index: 1;
+}
+
+.secondhr
+{
+    border: none;
+    border-top: 1px solid #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 1000px;
+    z-index: 1;
+}
+span{
+    font-weight: 800;
+}
+
+.inp
+{
+    text-align: center;
+}
+.btn a{
+    padding: 10px;
+    background-color: #f21170;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
+
+.btn {
+    text-align:center;
+    border: none;
+    height: 40 px;
+    width: 60 px;
+}
+.outer{
+    background-color: #e4bad4;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.inner{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border: 2px dashed #f21170;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ou{ 
+    margin-left: 42%;
+    
+}
+
+.card{
+    background-color: #a7bbc7;
+    text-align: center;
+}
+
+p{
+    text-align:center;
+}
+.card-body{
+    background-color: #a7bbc7;
+}
